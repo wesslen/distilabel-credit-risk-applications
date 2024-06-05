@@ -8,7 +8,7 @@ Local (`llama-cpp`) with HF quantized Mistral7B generates structured (`pydantic`
 python3.11 -m venv venv
 source venv/bin/activate
 python -m pip install -r requirements.txt
-make install-llama-cpp
+make install-llama-cpp # for M1 Mac only
 make download-llm
 ```
 
